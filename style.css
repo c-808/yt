@@ -173,7 +173,7 @@
 		width: 300px;
 	}
 }
-@media (max-width: 346px) {
+@media (max-width: 23em) {
 	.auto {
 		align-content: flex-end;
 	}
