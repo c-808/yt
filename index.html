@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Втакси. Подключение водителей к Яндекс Такси</title>
+	<meta name="description" content="Прямое подключение к яндекс Такси, официальный представитель">
+	<meta name="keywords" content="Таксопарк, Подключение, Яндекс Такси, Работа в яндекс Такси">
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.2/angular.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="style.css" >
+	<script src="tel.js"></script>
+</head>
+<body>
+		<div class="main_container">
+			<div class="auto">
+				<div class="yt"><img src="yt.png" class="me"></div>
+			</div>
+				<div class="auto_line">
+					<div class="line" ng-app="myApp">
+						<div class="in">
+						<div class="phone" ng-controller="MyCtrl">
+<!-- 							<div>Raw Value: {{phoneVal}}</div>
+							<div>Filtered Value: {{phoneVal | tel}}</div> -->
+							<label>
+								<span class="mask">+7</span>
+								<input class="input-phone" type='text' phone-input ng-model="phoneVal" placeholder="Номер телефона" />
+							</label>        
+						</div>
+						<div class="button"><font color="red">В</font>ход</div>
+					</div>
+					</div>
+				</div>
+			<div class="xline"></div>
+			<div class="city1">
+				<div class="city">
+						<div class="skill2">
+							<div class="flag_cont"><img src="flag1.png" class="flag" alt=""></div>
+							<div class="flag_cont"><img src="flag2.png" class="flag" alt=""></div>
+							<div class="flag_cont"><img src="flag3.png" class="flag" alt=""></div>
+							<div class="flag_cont"><img src="flag4.png" class="flag" alt=""></div>
+							<div class="flag_cont"><img src="flag5.png" class="flag" alt=""></div>
+							<div class="flag_cont"><img src="flag6.png" class="flag" alt=""></div>
+						</div>	
+				</div>
+			</div>
+				<div class="xline"></div>
+			<div class="cont">
+
+				<div class="rus">
+					<h1><font color="red">М</font>иссия сервиса и преимущества</h1>
+					<p>Самое лучшее такси, самые честные, другие все обманывают, а мы самые самые. 
+Бужешь с нами - будешь самымсамымсамым.</p>
+					<p>Мы круче чем сам сервис яндекс такси. Ведь мы таксопарк, а значит мы диктуем правила,
+а яндекс-хуяндекс подет делать как мы скажем!
+<p>Вообщем тырпыр-восемь-дыр! Даже не думай, я тебе на пальцах объяснил, почему мы лучшие!</p>
+					</p>
+				</div>
+			</div>
+		</div>	
+</body>
+</html>
