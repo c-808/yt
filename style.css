@@ -33,6 +33,7 @@
 		font-size: 1.3em;border: 1px solid #e4e4e4;text-align: center;
 	}
 	.phone {
+		display: flex;
 		position: relative;
 		width: 17em;
 		/*margin: 0 auto;*/
@@ -46,6 +47,7 @@
 		height: 5em;
 	}
 	.button {
+		display: flex;
 		padding-left: 0.7em;
 		font: 25px Helvetica;
 	}
@@ -141,6 +143,8 @@
 		top: 0;
       }
 	.line {
+		display: flex;
+		justify-content: center;
         background-image: url("menu.png");
         background-repeat: no-repeat;
         background-size: cover;
